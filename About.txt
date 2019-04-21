@@ -1,0 +1,56 @@
+LAPTOP REAPIR MANAGEMENT SYSTEM ::
+**********************************
+
+It is a project on Laptop Repair Shop management system which consists of 
+different modules.
+The Project is divided into two different parts :
+    i) Shopping Management System 
+   ii) Repair Management System
+    
+1. Shopping Management System :
+*******************************
+In this part I have used simple basic c++ coding in which a customer can 
+purchase the items which I have listed in Shopkeeper Portal using "cout".
+The Shopkeeper has to enter the no. of products Customer wants to purchase and
+according to that "Item Name" and "Item Qunatity" will be asked for customer 
+for which i have used "for loops" concept.
+Also I have used "goto" statement so that shopkeeper can again re-enter the 
+number of products that another customer wants to purchase and so on.
+
+2. Repair Shop Management System :
+**********************************
+For this part I have used some additional header files i.e,
+        1) #include<sstream>
+        2) #include<cstdlib>
+        3) #include<string>
+These all header files are not included in <iostream> header file.
+
+Then after I have created 5 different modules i.e,
+
+        1) For Adding Customer
+        2) For Search
+        3) For Update
+                i) Name Update
+               ii) Number Update
+        4) For Delete
+        5) For Showall       
+
+The concept behind creating these modules was that , when a customer come to a
+repair shop, he need to give his details so that repair technician can contact him as soon as his device is repaired for which i have created Add Customer module which deals with writing of details of customer into a file.
+For writing details of customer into a file , i have used the concept of File Handling.
+
+In a repair shop there may be many customers. If we want to know the details of any particular customer we need to search for him. For this I have created a search function which open the file in read mode and gives the details of searched customer if it exists.
+
+In a repair shop if a customer have provided wrong information then there might be possibility that the customer might not get the product or the technician cannot contact to the customer. So for this I have created a Update function which can update your name, number, address. To create this again I have used the concept of File Handling and file change concept.
+
+In a repair shop when the product is being repaired then the details of customer has to be deleted. For this i have created a delete function through which the shopkeeper can delete the customer information manually.For this also I have used the concept of File Handling.
+
+Also in shop, if Shopkeeper wants to see all customers , for that i have created a show function which shows all the customers of the Repair shop.
+For this also again I have the concept of File Handling to show all customers with their details present in file.
+
+So it was all about "Laptop Repair Management System" which is written in basic c++ language.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+THANK YOU FOR READING THIS :)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+        
