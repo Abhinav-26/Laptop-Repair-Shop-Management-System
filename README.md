@@ -12,10 +12,15 @@ interfaces :
 # Customer Management :
 In this portal I have used 5 different modules for giving shopkeeper oppertunity to deal with customer in efficient way
 (1). Add_Customer.cpp
+
 (2). Delete.cpp
+
 (3). Login.cpp
+
 (4). Search.cpp
+
 (5). Update.cpp
+
               
 I have used the concept of Object Oriented Programming to create these modules. Thses modules are dynamic in nature. You can add , delete, update, search, customers any time.
 
